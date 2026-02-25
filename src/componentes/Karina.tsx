@@ -5,12 +5,14 @@ const Karina = () => {
     const name:string = "Karina"
     const age:number = 45
     const jobs:string[] = ["graphic designer", "architect", "maintenance engineer", "English teacher"]
+    const hobbies:string[] = ["crossfit", "caminar en la montaña"]
 
     return (
         <>
         <div>{name}</div>
         <div>{age}</div>
         <div>{jobs}</div>
+        <div>{hobbies}</div>
         <img src="{reactSVG}" alt="mi fotito" />
         </>
 
