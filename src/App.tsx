@@ -1,18 +1,12 @@
-import Karina from './componentes/Karina';
-import Holamundo from './componentes/Holamundo';
-import './App.css'
+import KarinaPerfil from './componentes/KarinaPerfil';
+import './App.css';
+import './componentes/Perfil.css';
 
 const App = () => {
-
-
   return (
-    <>
-    <Holamundo/>
-    <Karina/>
-    
-    </>
-    
-    
+    <div className="main-container">
+      <KarinaPerfil />
+    </div>
   );
 }
 

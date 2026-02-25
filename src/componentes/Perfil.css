@@ -1,0 +1,72 @@
+
+
+.card-profile {
+    background-color: #AAC4F5;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    max-width: 320px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    color: #1a202c;
+    border: 1px solid #e2e8f0;
+}
+
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 8px 0;
+    color: #2d3748;
+}
+
+img {
+    max-width: 150px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.jobs,
+.hobbies {
+    font-size: 0.875rem;
+    height: 70px;
+    background-color: #FFF2C6;
+    border-radius: 8px;
+    color: #4a5568;
+    margin-bottom: 8px;
+    line-height: 2;
+}
+
+.hobbies {
+  color: #718096;
+  font-size: 0.8rem;
+}
+
+.info {
+    font-size: 0.95rem;
+    color: #718096;
+    font-style: italic;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #edf2f7;
+}
+
+.tag-state {
+    display: inline-block;
+    margin-top: 16px;
+    background-color: #c6f6d5;
+    color: #22543d;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    text-transform: uppercase;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
