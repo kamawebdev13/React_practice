@@ -1,4 +1,5 @@
 import Karina from './componentes/Karina';
+import Holamundo from './componentes/Holamundo';
 import './App.css'
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
 
   return (
     <>
+    <Holamundo/>
     <Karina/>
     
     </>
